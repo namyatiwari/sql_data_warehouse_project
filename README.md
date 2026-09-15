@@ -96,5 +96,5 @@ This is my **first SQL project**, where I am putting my SQL knowledge into pract
 
 ### Connect with me
 
-**LinkedIn:** [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
+**LinkedIn:** [Your LinkedIn Profile](www.linkedin.com/in/namyatiwari)
 
