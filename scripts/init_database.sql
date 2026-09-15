@@ -16,18 +16,18 @@ WARNING:
 USE master;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWareHouse')
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
-ALTER DATABASE DataWareHouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE
-DROP DATABASE DataWareHouse;
+ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+DROP DATABASE DataWarehouse;
 END;
 GO
 
 --create database DataWarehouse
 
-CREATE DATABASE DataWareHouse;
+CREATE DATABASE DataWarehouse;
 GO
-USE DataWareHouse;
+USE DataWarehouse;
 GO
 
 --create schemas
